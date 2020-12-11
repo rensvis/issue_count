@@ -1,0 +1,22 @@
+{
+  "name": "issue-count",
+  "version": "1.0.0",
+  "description": "Een programmeeropdracht van developers.nl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rensvis/developers.nl-issue-count-applicatie.git"
+  },
+  "author": "Rens Vis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rensvis/developers.nl-issue-count-applicatie/issues"
+  },
+  "homepage": "https://github.com/rensvis/developers.nl-issue-count-applicatie#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
