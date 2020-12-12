@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+
+}
+
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+   box-sizing: border-box; 
+}
+
+body {
+  color: white;
+  background: rgb(39, 39, 39);
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+  max-height: 600px;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  /* padding: 20px;
+  border: solid 2px white;
+  border-radius: 7px; */
+}
+
+#upload-file {
+  margin: 10px 0 20px;
+}
+
+.table-container {
+  width: 100%;
+  overflow: auto;
+}
+
+.table-issues {
+  border-spacing: 1; 
+  border-collapse: collapse;
+  /* background: white; */
+  border-radius:6px;
+  overflow:hidden;
+  background: rgba(255, 255, 255, 0.076);
+  border-radius: 5px;
+  color: rgb(206, 206, 206);
+}
+
+.table-issues tbody {
+}
+.table-issues .header {
+  background: rgba(6, 24, 36, 0.912);
+  cursor: pointer;
+}
+.table-issues tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.083);
+}
+.table-issues th {
+  width: 170px;
+  padding: 10px 20px;
+}
+.table-issues th:hover {
+  color: rgb(255, 255, 255);
+}
+.table-issues th.asc, .table-issues th.desc {
+  color: white;
+}
+.table-issues th.asc:after {
+  content: '⯅';
+  margin-left: 5px;
+}
+.table-issues th.desc:after {
+  content: '⯆';
+  margin-left: 5px;
+}
+.table-issues td {
+  padding: 10px;
+}
